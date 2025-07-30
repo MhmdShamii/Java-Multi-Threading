@@ -40,31 +40,6 @@ The program:
 3. Each reader reports the max value found in its file.
 4. The main thread compares the four results to determine the final maximum.
 
----
-
-## 💻 Sample Output
-
-========== OS Project: Parallel Max Finder ==========
-Generating files with 1,000,000 random integers each...
-File created: file1.txt
-File exists: file2.txt -> Overwriting with new numbers
-...
-All files generated!
-
-========== STEP 2: Finding Maximums in Files ==========
-Starting max-finding threads for each file...
-
-Max in file1.txt = 999985432
-Max in file2.txt = 999999999
-Max in file3.txt = 985234123
-Max in file4.txt = 987654321
-
-==================== FINAL RESULT ====================
-Maximum value is 999999999 found in file: file2.txt
-
-
----
-
 ## 📚 Concepts Practiced
 
 - Multithreading with `Thread` class
